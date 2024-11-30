@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perkenalan Diri</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="hero" data-aos="fade-down">
+      <h1>Yo Welcome</h1>
+      <p>Perkenalkan, aing <strong>[Jojo]</strong></p>
+    </div>
+  </header>
+
+  <section id="about" data-aos="fade-up">
+    <h2>Tentang Saya</h2>
+    <p>[Kadang tuh saya gini dan tiba-tiba gitu, dan terkadang saya gitu tiba-tiba jadi gini.]</p>
+  </section>
+
+  <section id="skills" data-aos="zoom-in">
+    <h2>Keahlian</h2>
+    <div class="skills-container">
+      <div class="skill" data-aos="flip-left">Buat Web (Copas sih hehe)</div>
+      <div class="skill" data-aos="flip-left">Main di Gold Lane</div>
+      <div class="skill" data-aos="flip-left">Kalo Epep di bagian nyampah</div>
+    </div>
+  </section>
+
+  <section id="contact" data-aos="fade-right">
+    <h2>Hubungi Saya</h2>
+    <form action="#">
+      <input type="text" placeholder="Nama Anda" required data-aos="fade-left">
+      <input type="email" placeholder="Email Anda" required data-aos="fade-left">
+      <textarea placeholder="Pesan Anda" required data-aos="fade-left"></textarea>
+      <button type="submit" data-aos="fade-up">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 <strong>[Evos RRQ Jo]</strong>. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200,
+      once: true,
+    });
+  </script>
+</body>
+</html>

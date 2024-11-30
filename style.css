@@ -1,0 +1,107 @@
+/* Reset dan Font */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: linear-gradient(45deg, #f5f7fa, #c3cfe2); /* Latar lebih terang */
+}
+
+header {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), transparent), url('https://source.unsplash.com/1600x900/?sunrise') no-repeat center/cover;
+  color: #000;
+}
+
+header h1 {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Efek cahaya */
+}
+
+header p {
+  font-size: 1.3em;
+  color: #555;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2.8em;
+  margin-bottom: 20px;
+  color: #333;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Tambahan cahaya */
+}
+
+#about, #skills, #contact {
+  background: rgba(255, 255, 255, 0.9); /* Lebih terang */
+  backdrop-filter: blur(5px);
+  margin: 20px auto;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Efek mengambang */
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  background: linear-gradient(to bottom, #56ccf2, #2f80ed); /* Warna cerah */
+  color: white;
+  padding: 15px 25px;
+  border-radius: 20px;
+  font-size: 1.2em;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+form input, form textarea {
+  width: 80%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 2px solid #56ccf2;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+form input::placeholder, form textarea::placeholder {
+  color: #888;
+}
+
+form button {
+  background: linear-gradient(to right, #2f80ed, #56ccf2); /* Tombol terang */
+  color: #fff;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+form button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+}
+
+footer {
+  text-align: center;
+  background: #2f80ed;
+  color: #fff;
+  padding: 10px;
+  font-size: 0.9em;
+}
